@@ -1,0 +1,23 @@
+sudo gedit /etc/apt/apt.conf
+
+Acquire::http::proxy "http://him.raj:UWc2R2wP@202.141.80.20:3128/";
+Acquire::https::proxy "https://him.raj:UWc2R2wP@202.141.80.20:3128/";
+Acquire::ftp::proxy "ftp://him.raj:UWc2R2wP@202.141.80.20:3128";
+Acquire::socks::proxy "socks://him.raj:UWc2R2wP@202.141.80.20:3128";
+
+sudo gedit /etc/environment
+
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+http_proxy="http://him.raj:UWc2R2wP@202.141.80.20:3128/"
+https_proxy="https://him.raj:UWc2R2wP@202.141.80.20:3128/"
+ftp_proxy="ftp://him.raj:UWc2R2wP@202.141.80.20:3128/"
+socks_proxy="socks://him.raj:UWc2R2wP@202.141.80.20:3128/"
+
+
+sudo gedit ~/.bashrc
+
+export http_proxy="http://him.raj:UWc2R2wP@202.141.80.20:3128/"
+export https_proxy="https://him.raj:UWc2R2wP@202.141.80.20:3128/"
+export ftp_proxy="ftp://him.raj:UWc2R2wP@202.141.80.20:3128/"
+export socks_proxy="socks://him.raj:UWc2R2wP@202.141.80.20:3128/"
+no_proxy="localhost,127.0.0.0/8,*iitg.ernet.in,202.141.*"
