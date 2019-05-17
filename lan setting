@@ -21,3 +21,4 @@ export https_proxy="https://him.raj:UWc2R2wP@202.141.80.20:3128/"
 export ftp_proxy="ftp://him.raj:UWc2R2wP@202.141.80.20:3128/"
 export socks_proxy="socks://him.raj:UWc2R2wP@202.141.80.20:3128/"
 no_proxy="localhost,127.0.0.0/8,*iitg.ernet.in,202.141.*"
+justcheckin
